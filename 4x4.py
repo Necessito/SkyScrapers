@@ -19,7 +19,7 @@ for i in range(0,16):
 		elif i<=7:
 			matrix[i-4][3],matrix[i-4][2],matrix[i-4][1],matrix[i-4][0]=1,2,3,4
 		elif i<=11:
-			matrix[3][11-i],atrix[2][11-i],atrix[1][11-i],atrix[0][11-i]=1,2,3,4
+			matrix[3][11-i],matrix[2][11-i],matrix[1][11-i],matrix[0][11-i]=1,2,3,4
 		else:
 			matrix[15-i][0],matrix[15-i][1],matrix[15-i][2],matrix[15-i][3]=1,2,3,4
 for x in range(4):
